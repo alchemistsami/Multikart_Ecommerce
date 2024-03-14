@@ -1,0 +1,100 @@
+.footer-container {
+  font-size: 16px;
+  background-color: rgb(249, 249, 249);
+  padding: 15px 55px;
+}
+.first-col {
+  width: 600px;
+}
+.middle-line {
+  border-left: 1px solid #a9979772;
+}
+.footer-div1 {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 30px;
+  border-bottom: 1px solid #c7b0b072;
+}
+
+.footer-div1 h4 {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+span .text-input {
+  padding: 5px;
+  margin: 0px 15px;
+}
+
+.subscribe-btn {
+  margin: 2px 15px;
+  color: #fff;
+  background-color: rgb(255, 76, 59);
+  height: 48px;
+  width: 140px;
+  border: 1px solid rgb(255, 76, 59);
+}
+
+.subscribe-btn:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.footer-container2 {
+  margin: 20px;
+  line-height: 2;
+}
+
+.headings {
+  font-size: 18px;
+  margin: 25px 30px;
+}
+.footer-container2 ul {
+  list-style: none;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.last-div {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.footer-logos {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 60px;
+}
+
+.footer-icons span:hover {
+  cursor: pointer;
+  color: rgb(255, 69, 0);
+}
+
+.underline li {
+  display: block;
+  cursor: pointer;
+  position: relative;
+}
+
+.underline li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background-color: rgb(242, 76, 5);
+  transition: width 0.3s ease; /* Smooth transition for width */
+}
+
+.underline li:hover::after {
+  cursor: pointer;
+  width: 30%;
+}
