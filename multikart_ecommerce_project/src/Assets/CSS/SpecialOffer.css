@@ -1,0 +1,33 @@
+.s_bg-img{
+    background-image: url("../Image/Special_img.jpg");
+    background-attachment: fixed;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 190px;
+    padding-bottom: 190px;
+    background-position: 100%;
+}
+.s_banner1{
+    font-size: 100px;
+    font-weight: 600;
+    color: var(--theme-deafult);
+    text-transform: uppercase;
+    margin-top: -15px;
+    color: rgb(255,76,59);
+}
+.s_banner2{
+    font-size: 60px;
+    font-weight: 600;
+    color: var(--theme-deafult);
+    text-transform: uppercase;
+    margin-top: -15px;
+}
+.s_banner3{
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 15px;
+    letter-spacing: 0.5em;
+    color: rgb(119,146,190);
+}
