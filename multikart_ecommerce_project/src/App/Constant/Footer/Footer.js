@@ -1,5 +1,5 @@
 import React from "react";
-import multicartLogo from "../../../Assets/Image/multicart-logo.png";
+import multicartLogo from "../../../Assets/Image/";
 import visaLogo from "../../../Assets/Image/visa-logo.png"
 import paypalLogo from "../../../Assets/Image/paypal-logo.png"
 import americanLogo from "../../../Assets/Image/american-express-logo.png"
