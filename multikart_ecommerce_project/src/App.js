@@ -1,17 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
-import CarouselComponent from './App/Page/HomePage/Carousel';
-import Poster from './App/Page/HomePage/Poster';
-import Footer from './App/Constant/Footer/Footer';
+// import Footer from './App/Constant/Footer/Footer';
+import HeaderHomePage from './App/Constant/Header/Header-Home-Page/HeaderHomePage';
+import SliderComponent from './App/Page/HomePage/SpecilaOffers/ReactState';
 
 function App() {
   return (
     <div className="App">
-    <CarouselComponent/>
-    <Poster/>
-    {/* <Footer/> */}
-    </div>
-  );
-}
+     <HeaderHomePage/>
+    <SliderComponent/>
+  </div>
+     );
+    }
 
 export default App;
