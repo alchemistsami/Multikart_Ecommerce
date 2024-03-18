@@ -1,3 +1,11 @@
+<!-- #install -->
+
+recat-bootstrap ---> npm  i  react-bootstrap
+react-slick ---> npm i react-slick
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
