@@ -1,0 +1,65 @@
+.insta-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .insta-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    transition: transform .3s;
+  }
+
+  .insta-image:hover {
+    transform: scale(1.1);
+  }
+  
+.heading{
+ color: #222222;
+ font: 28px Lato,sans-serif;
+ text-align: center;
+ margin: -5px 0px 25px;
+}
+    
+  .instagram-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height:100%;
+    opacity: 0;
+    background-color: rgba(244, 142, 142, 0.705);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    cursor: pointer;
+    transition: opacity 0.4s ease-in-out;
+  }
+  .content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:white;
+    text-align: center;
+  
+  }
+  .content .insta-icon{
+    font-size: 4em;
+  margin-bottom: 10px;
+  color: white;
+  transition: transform 0.3s;
+  }
+  
+  /* Rotate icon when hovering over the container */
+.insta-container:hover .content .insta-icon {
+  transform:    rotate(360deg);
+}
+  .insta-container:hover .instagram-overlay{
+    opacity: 0.8;
+  }
+  
+  

@@ -1,0 +1,50 @@
+
+.media {
+    border-right: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    padding: 23px;
+    transition: transform 0.3s ease;
+  
+  }
+  
+  .media:last-child {
+    border-right: none;
+  }
+
+.logoimage {
+  flex: 0 0 auto; 
+  margin-right: 20px;
+   object-fit: cover; 
+  transition: transform 0.3s ease;
+}
+.logoimage img
+{
+  width: 46px;
+  height: 46px;
+  object-fit: cover;
+}
+.media:hover .logoimage{
+  transform: scale(1.1);
+}
+
+.media-body {
+    flex: 1 1 auto;
+  }
+  
+  h4 {
+    font: 16px Lato,sans-serif;
+    font-weight: normal;
+    color: #212529;
+    transition: color 0.3s ease;
+  }
+  
+  .media:hover h4 {
+    color: #FF4C3B;
+  }
+  
+  p {
+    font: 14px Lato,sans-serif;
+    color: #777777;
+    margin-top: 5px;
+  }
