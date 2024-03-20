@@ -32,7 +32,7 @@
     flex: 1 1 auto;
   }
   
-  h4 {
+ .media-body h4 {
     font: 16px Lato,sans-serif;
     font-weight: normal;
     color: #212529;

@@ -1,7 +1,10 @@
 #install
 
 npm i react-bootstrap //react bootstrap
-
+npm i reactstrap //reactstrap
+npm install react-slick --save//react-slick
+npm i @fortawesome/react-fontawesome
+npm i @fortawesome/fontawesome-svg-core//icon
 
 
 
