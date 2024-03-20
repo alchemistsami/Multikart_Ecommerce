@@ -2,14 +2,15 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import "../../../Assets/CSS/Carousel.css"
 
-const CarouselComponent = () => {
+
+const CarouselComponent = ({slide}) => {
   return (
     <section className="p-0">
       <Carousel>
-        <Carousel.Item>
+      {slide && (slide.map((slide)=><Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/sub-banner1.5d5f9c6f.jpg"
+            src={slide.img}
             alt="First slide"
           />
           <Carousel.Caption>
@@ -19,8 +20,8 @@ const CarouselComponent = () => {
                   <div className="col">
                     <div className="slider-contain">
                       <div className="div-aline-text">
-                        <h5 className="h5-text">welcome to fashion</h5>
-                        <h1 className="h2-text">MEN FASION</h1>
+                        <h5 className="h5-text">{slide.h5text}</h5>
+                        <h1 className="h2-text">{slide.h1text}</h1>
                         <a className="a-hover a-button" href="/left-sidebar/collection">Shop Now </a>
                       </div>
                     </div>
@@ -29,11 +30,12 @@ const CarouselComponent = () => {
               </div>
             </div>
           </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
+        </Carousel.Item>))}
+        
+        {/* <Carousel.Item>
           <img
             className="d-block w-100"
-            src="https://multikart-react-reactpixelstrap.vercel.app/_next/static/media/sub-banner2.3b2448f3.jpg"
+            src={slide[1].img}
             alt="Second slide"
           />
           <Carousel.Caption>
@@ -43,8 +45,8 @@ const CarouselComponent = () => {
                   <div className="col">
                     <div className="slider-contain">
                       <div className="div-aline-text">
-                        <h5 className="h5-text">welcome to fashion</h5>
-                        <h1 className="h2-text">WOMEN FASION</h1>
+                        <h5 className="h5-text">{slide[1].h5text}</h5>
+                        <h1 className="h2-text">{slide[1].h1text}</h1>
                         <a className="a-hover a-button" href="/left-sidebar/collection">Shop Now </a>
                       </div>
                     </div>
@@ -53,7 +55,7 @@ const CarouselComponent = () => {
               </div>
             </div>
           </Carousel.Caption>
-        </Carousel.Item>
+        </Carousel.Item> */}
       </Carousel>
     </section>
   );

@@ -1,0 +1,42 @@
+.Shpecial-Products-list img {
+    height: 257px;
+    margin: 10px 30px 30px 30px;
+    cursor: pointer;
+    transition: 0.2s;
+    outline: none;
+}
+
+.Shpecial-Products-list img:hover {
+    opacity: 0.6;
+    position: relative;
+    z-index: 99;
+    transition: 0.2s;
+    outline: none;
+
+
+}
+
+.SliderImagesSetHomePage {
+    height: 250px;
+
+
+}
+
+
+.Shpecial-Products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slider-buttom-border {
+    border-bottom: 4px solid red;
+    margin: 10px 0px 10px 210px;
+    width: 15%;
+}
+
+.slider-buttom-border-top {
+    border-bottom: 4px solid red;
+    margin: 12px 0px 10px 690px;
+    align-items: center;
+    width: 8%;
+}
