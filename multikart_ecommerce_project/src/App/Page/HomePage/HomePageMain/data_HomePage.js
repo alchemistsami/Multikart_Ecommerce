@@ -20,3 +20,11 @@ export let slide = [
         offer: "10% off",
         title: "WOMEN"
       }]
+      export let bgimg=[
+        {
+          img:"https://multikart-react-reactpixelstrap.vercel.app/assets/images/parallax/1.jpg",
+          bg1:"2023",
+          bg2:"fashion trends",
+          bg3:"special offer"
+        }
+      ]
