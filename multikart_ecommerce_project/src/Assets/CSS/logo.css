@@ -1,0 +1,22 @@
+.logo-container {
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+  }
+.logo-img {
+    width: 125px; 
+    height: auto; 
+    
+  }
+  .logo-img{
+    filter: grayscale(100%);
+    opacity: 0.45;
+  }
+  
+  .logo-img:hover {
+    filter: grayscale(0%); 
+    opacity: 1;
+  }
+  
+  
+   
