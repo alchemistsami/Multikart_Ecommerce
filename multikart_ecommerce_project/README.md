@@ -2,7 +2,7 @@
 
 recat-bootstrap ---> npm  i  react-bootstrap
 react-slick ---> npm i react-slick
-
+for practice
 
 
 
