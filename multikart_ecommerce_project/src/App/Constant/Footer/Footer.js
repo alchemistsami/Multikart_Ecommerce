@@ -1,11 +1,11 @@
 import React from "react";
-import multicartLogo from "../../../Assets/Image/";
-import visaLogo from "../../../Assets/Image/visa-logo.png"
-import paypalLogo from "../../../Assets/Image/paypal-logo.png"
-import americanLogo from "../../../Assets/Image/american-express-logo.png"
-import masterCardLogo from "../../../Assets/Image/mastercard-logo.png"
-import discoverLogo from  "../../../Assets/Image/discover-logo.png"
-import '../../../Assets/CSS/footer.css'
+import multicartLogo from "../../../Assets/Image/multicart-logo.png";
+import visaLogo from "../../../Assets/Image/visa-logo.png";
+import paypalLogo from "../../../Assets/Image/paypal-logo.png";
+import americanLogo from "../../../Assets/Image/american-express-logo.png";
+import masterCardLogo from "../../../Assets/Image/mastercard-logo.png";
+import discoverLogo from "../../../Assets/Image/discover-logo.png";
+import "../../../Assets/CSS/footer.css";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -129,7 +129,7 @@ const Footer = () => {
             </span>
           </div>
 
-          <div className="footer-logos ms-3">
+          <div className="footer-logos ms-3 mb-3">
             <div>
               <img src={visaLogo} className="pe-3" />
             </div>

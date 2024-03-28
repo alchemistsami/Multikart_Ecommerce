@@ -1,12 +1,14 @@
 
 
+
 import SpecialOfferBg from './App/Page/HomePage/SpecialOfferBg';
 
 function App() {
   return (
     <div>
       
-    <SpecialOfferBg/>
+    {/* <SpecialOfferBg/> */}
+   
     </div>
   );
 }

@@ -1,18 +1,28 @@
-import { Carousel } from 'react-bootstrap';
-import './App.css';
-// import Footer from './App/Constant/Footer/Footer';
-import HeaderHomePage from './App/Constant/Header/Header-Home-Page/HeaderHomePage';
-import SliderComponent from './App/Page/HomePage/SpecilaOffers/ReactState';
-import CarouselComponent from './App/Page/HomePage/Carousel';
-import Home from './App/Constant/Header/Header-Home-Page/Navbar-Second/Nav-Components/Home';
-import HomePage from './App/Page/HomePage/HomePageMain/HomePage';
+import React from 'react'
+import { BrowserRouter, Routes ,Route } from 'react-router-dom'
+import Footer from './App/Constant/Footer/Footer'
 
-function App() {
- 
+import About from './App/Page/Beauty/About'
+import BeautyHome from './App/Page/Beauty/BeautyHome'
+import HomePage from './App/Page/HomePage/HomePageMain/HomePage'
 
+
+const App = () => {
   return (
- <HomePage/>
-  );
+    <div>
+      <BrowserRouter>
+      <Routes>
+      <Route path='/' element={<HomePage/>}  />
+        <Route path='/footer' element={<Footer/>}  />
+        
+        <Route path='/beauty' element={<BeautyHome/>}  />
+      </Routes>
+      
+      
+      </BrowserRouter>
+      
+    </div>
+  )
 }
 
-export default App;
+export default App
