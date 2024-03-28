@@ -6,6 +6,7 @@ import { poster } from './data_HomePage'
 
 import SpecialOfferBg from '../SpecialOfferBg'
 import { bgimg } from './data_HomePage'
+import SpecialProduct from '../Special_Product/SpecialProduct'
 
 
 
@@ -16,6 +17,7 @@ function HomePage() {
         <div className="App">
           <CarouselComponent slide={slide} />
           <Poster poster={poster} />
+          <SpecialProduct/>
           <SpecialOfferBg  bgimg={bgimg}/>
 
         </div>
