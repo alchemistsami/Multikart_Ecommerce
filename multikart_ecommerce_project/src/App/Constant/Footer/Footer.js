@@ -77,7 +77,7 @@ const Footer = () => {
               </div>
 
               <div className="col ps-5">
-                <h4 className="headings">MY ACCOUNT</h4>
+                <h5 className="headings">MY ACCOUNT</h5>
                 <ul className="underline">
                   <li>Womens</li>
                   <li>Clothing</li>
@@ -87,7 +87,7 @@ const Footer = () => {
               </div>
 
               <div className="col  ps-5">
-                <h4 className="headings "> WHY WE CHOOSE </h4>
+                <h5 className="headings "> WHY WE CHOOSE </h5>
                 <ul className="underline">
                   <li> Shipping & Return </li>
                   <li> Secure Shopping </li>
@@ -98,7 +98,7 @@ const Footer = () => {
               </div>
 
               <div className="col  ps-5">
-                <h4 className="headings"> STORE INFORMATION </h4>
+                <h5 className="headings"> STORE INFORMATION </h5>
                 <ul>
                   <li>
                     <i className="bi bi-geo-alt me-3"></i>
