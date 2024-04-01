@@ -91,7 +91,7 @@ span .text-input {
   width: 0;
   height: 3px;
   background-color: rgb(242, 76, 5);
-  transition: width 0.3s ease; /* Smooth transition for width */
+  transition: width 0.3s ease; 
 }
 
 .underline li:hover::after {

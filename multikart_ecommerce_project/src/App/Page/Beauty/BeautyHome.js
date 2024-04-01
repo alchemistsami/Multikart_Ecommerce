@@ -5,8 +5,9 @@ import TopCollections from "./TopCollections";
 import SpecialProducts from "./SpecialProducts";
 import NewProducts from "./NewProducts";
 import Footer from "../../Constant/Footer/Footer";
-// import CarouselC from "./CarouselC";
+import CarouselC from "./CarouselC";
 import { carouselData } from "./BeautyPage_data";
+import ProductTutorial from "./ProductTutorial";
 
 const BeautyHome = () => {
   return (
@@ -14,6 +15,7 @@ const BeautyHome = () => {
       {/* <CarouselC carouselData={carouselData} /> */}
       <About />
       <NewProducts />
+      <ProductTutorial/>
       <TopCollections />
       <SpecialProducts />
       <Footer />

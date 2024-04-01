@@ -55,7 +55,7 @@ const SpecialProducts = () => {
               </div>
             ))}
         </div>
-        <div className="text-center mt-4">
+        <div className="text-center mt-4 mb-4">
           <button className="btn btn-primary m-2" onClick={handlePrev}>
             Previous
           </button>

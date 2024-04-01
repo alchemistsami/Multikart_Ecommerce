@@ -23,3 +23,23 @@ color:  #857878;
     color: rgb(249, 114, 65);
     cursor: pointer;
 }
+
+.video-section-container {
+
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-section {
+    width: 60%;
+    transition: transform 0.3s ease;
+    overflow: hidden;
+}
+
+.video-section:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transform-origin: center center; 
+}
