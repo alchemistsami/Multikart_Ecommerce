@@ -11,11 +11,12 @@ const CarouselC = ({ carouselData }) => {
           carouselData.map((carouselItem, index) => (
             <Carousel.Item key={index}>
               <img 
-                width={"40%"}
+               
+                width={"500px"}
                 src={carouselItem.img}
                 alt="Carousel slide"
               />
-              <Carousel.Caption className="text-left"> {/* Added text-left class */}
+              <Carousel.Caption className="text-left"> 
                 <div className="home home1">
                   <div className="container">
                     <div className="row">
